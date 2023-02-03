@@ -19,7 +19,7 @@ app.config['MAIL_USERNAME'] = 'xandercage632002@gmail.com'
 app.config['MAIL_PASSWORD'] = 'xsmcwcbgbeulslwy'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-mail=Mail(app);
+mail=Mail(app)
 
 # File Configuration
 app.config['UPLOAD_FOLDER'] = 'D:\\attendence_system\\static\\images\\Student images'
